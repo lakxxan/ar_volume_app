@@ -202,8 +202,8 @@ class _ARScreenState extends State<ARScreen> {
 
         var node = ARNode(
           type: NodeType.webGLB,
-          uri: "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/main/2.0/Sphere/glTF-Binary/Sphere.glb",
-          scale: Vector3(0.02, 0.02, 0.02), // Small 2cm dot for precision
+          uri: "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Binary/Duck.glb",
+          scale: Vector3(0.005, 0.005, 0.005), // Scale down the duck so it looks like a dot
           position: Vector3(0, 0, 0),
         );
 
